@@ -1,0 +1,22 @@
+body {
+    margin: unset;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+a{
+    color: inherit;
+    text-decoration: unset;
+    &:hover {
+        text-decoration: underline;
+    }
+    }
+
+.container {
+    margin: 0 auto;
+    padding: 0 1em;
+    max-width: 800px;
+}

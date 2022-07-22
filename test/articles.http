@@ -1,0 +1,26 @@
+GET     http://localhost:3000/articles/
+
+###
+GET     http://localhost:3000/articles/2
+
+###
+POST    http://localhost:3000/articles/
+Content-Type: application/json
+
+{
+    "title": "samsung ultra",
+    "content": "one of the bestttttttttt",
+    "authorId": 1
+}
+
+###
+PATCH   http://localhost:3000/articles/3
+Content-Type: application/json
+
+{
+    "title": "samsung ultra",
+    "content": "one of the bestt"
+}
+
+###
+DELETE  http://localhost:3000/articles/5

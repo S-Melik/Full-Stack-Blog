@@ -1,0 +1,25 @@
+GET     http://localhost:3000/comments/
+
+###
+GET     http://localhost:3000/comments/1
+
+###
+POST    http://localhost:3000/comments/
+Content-Type: application/json
+
+{
+    "commn": "hello samsung",
+    "articleId": 1
+}
+
+###
+
+PATCH   http://localhost:3000/comments/1
+Content-Type: application/json
+
+{
+    "commn": "hello samsung"
+}
+
+###
+DELETE  http://localhost:3000/comments/1
